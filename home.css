@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#073b4c;
+   
+}
+a {
+    color: white;
+    width: 60px;
+}
+li{
+    display: inline;
+}
+h1 { font-size: 350%;
+
+}
+#store {
+    padding: 32px 40px;
+    font-size: 24px;
+
+}
