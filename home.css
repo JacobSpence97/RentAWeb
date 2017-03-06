@@ -4,12 +4,17 @@ h1 { font-size: 350%;
 #img2{
     position: absolute;
     right: 0px;
-    top: 60px;
+    top: 70px;
 }
 #img1{
     position: absolute;
     left: 0px;
-    top: 60px;
+    top: 70px;
+}
+#img3{
+    display: block;
+    margin: auto;
+    width: 40%;
 }
 body{
     background-color: #073b4c;
