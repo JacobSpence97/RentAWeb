@@ -1,31 +1,48 @@
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color:#073b4c;
-   
-}
-
-.link{
-    color: white;
-    width: 60px;
-}
-
-li{
-    display: inline;
-    padding: 5px;
-}
-
 h1 { font-size: 350%;
-
 }
 
-#store {
-    padding: 32px 40px;
-    font-size: 24px;
-}
 #img2{
     position: absolute;
     right: 0px;
+    top: 60px;
+}
+#img1{
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+body{
+    background-color: #073b4c;
+    color: white;
+}
+.navbar-default {
+  background-color:#ef476f;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: none;
+  color: white;
+ }
+ .button {
+    background-color:#ffd166 ;
+    border: none;
+    color: black;
+    padding: 32px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+}
+.button:hover {background-color: antiquewhite;}
+
+.button:active {
+  background-color: antiquewhite;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.navbar-default .navbar-brand{
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
 }
