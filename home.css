@@ -48,3 +48,6 @@ body{
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
+li{
+    font-size: 200%;
+}
