@@ -1,17 +1,9 @@
-#img2{
-    position: absolute;
-    right: 0px;
-    top: 70px;
-}
-#img1{
-    position: absolute;
-    left: 0px;
-    top: 70px;
-}
-#img3{
-    display: block;
+
+.img1 {
+    display: inline-block;
     margin: auto;
-    width: 40%;
+    width: 33%;
+    height: auto;
 }
 body{
     background-color: #073b4c;
