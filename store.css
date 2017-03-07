@@ -35,9 +35,9 @@ td{
 tr:nth-child(even) {
     background-color: #06d6a0;
 }
-li{
+/*li{
     font-size: 200%;
-}
+}*/
 .button {
     background-color:#ffd166 ;
     border: none;
