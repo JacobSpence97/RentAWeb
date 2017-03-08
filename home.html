@@ -18,10 +18,31 @@
 </head>
 <body>
 <center><img id="banner" src="img/banner.jpg"></center>
-<div class="container">
-<img class="img1" src="img/strange.jpg">
-<img class="img1" src="img/avatar.jpg">
-<img class="img1" src="img/hellboy.jpg">
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="img/strange.jpg" style="width:100%" style="height:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="img/avatar.jpg" style="width:100%" style="height:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="img/hellboy.jpg" style="width:100%" style="height:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 </br>
 <center><h2><b>About</b></h2></center>
@@ -29,5 +50,7 @@
   Founded by some geek that has no life what so ever.</br>
   He started this company so pepole could rent movies and comic books.</br>
   At Rent-A-Flix you can rent VHS(yes really), DVDs, Special Edittions, Blu-Rays, and of course Comics.</p></center>
+<script src="jquery-3.1.1.js"></script>
+<script src="rent.js"></script>
 </body>
 </html>
