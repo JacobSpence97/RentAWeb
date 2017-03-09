@@ -9,6 +9,7 @@ body{
     background-color: #073b4c;
     color: white;
 }
+/*nav bar*/
 .navbar-default {
   background-color:#ef476f;
   background-image: none;
@@ -16,7 +17,16 @@ body{
   border: none;
   color: white;
  }
- .button {
+ 
+.navbar-default .navbar-brand{
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 200%
+}
+/*button*/
+.button {
     background-color:#ffd166 ;
     border: none;
     color: black;
@@ -34,15 +44,8 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.navbar-default .navbar-brand{
-    color: white;
-}
-.navbar-default .navbar-nav>li>a {
-    color: white;
-    font-size: 200%
-}
+/*carousel*/
 * {box-sizing:border-box}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 400px;
